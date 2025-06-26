@@ -1,0 +1,129 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "브로콜리 샐러드",
+      "description": "브로콜리와 야채들을 넣은 샐러드",
+      "ingredients": [
+        {
+          "cropType": 0,
+          "requiredAmount": 4,
+          "currentAmount": 0
+        },
+        {
+          "cropType": 2,
+          "requiredAmount": 2,
+          "currentAmount": 0
+        },
+        {
+          "cropType": 3,
+          "requiredAmount": 2,
+          "currentAmount": 0
+        }
+      ],
+      "cookingTime": 10.0,
+      "rewardPoints": 100
+    },
+    {
+      "id": 2,
+      "name": "버섯탕수",
+      "description": "탕수육 인줄 알고 먹었지만..",
+      "ingredients": [
+        {
+          "cropType": 2,
+          "requiredAmount": 3,
+          "currentAmount": 0
+        },
+        {
+          "cropType": 3,
+          "requiredAmount": 2,
+          "currentAmount": 0
+        },
+        {
+          "cropType": 6,
+          "requiredAmount": 2,
+          "currentAmount": 0
+        }
+      ],
+      "cookingTime": 15.0,
+      "rewardPoints": 150
+    },
+    {
+      "id": 3,
+      "name": "팝콘",
+      "description": "고소한 맛이 일품인 팝콘",
+      "ingredients": [
+        {
+          "cropType": 6,
+          "requiredAmount": 6,
+          "currentAmount": 0
+        }
+      ],
+      "cookingTime": 8.0,
+      "rewardPoints": 80
+    },
+    {
+      "id": 4,
+      "name": "해바라기 스테이크",
+      "description": "해바라기에 가니쉬를 곁들인 스테이크",
+      "ingredients": [
+        {
+          "cropType": 1,
+          "requiredAmount": 4,
+          "currentAmount": 0
+        },
+        {
+          "cropType": 0,
+          "requiredAmount": 2,
+          "currentAmount": 0
+        }
+      ],
+      "cookingTime": 12.0,
+      "rewardPoints": 120
+    },
+    {
+      "id": 5,
+      "name": "컬리플라워 그라탕",
+      "description": "컬리플라워와 버섯이 들어간 그라탕",
+      "ingredients": [
+        {
+          "cropType": 4,
+          "requiredAmount": 4,
+          "currentAmount": 0
+        },
+        {
+          "cropType": 2,
+          "requiredAmount": 3,
+          "currentAmount": 0
+        }
+      ],
+      "cookingTime": 20.0,
+      "rewardPoints": 200
+    },
+    {
+      "id": 6,
+      "name": "야채볶음",
+      "description": "정말 건강하게 생겼다",
+      "ingredients": [
+        {
+          "cropType": 0,
+          "requiredAmount": 2,
+          "currentAmount": 0
+          },
+          {
+            "cropType": 3,
+            "requiredAmount": 2,
+            "currentAmount": 0
+          }
+          ,
+          {
+            "cropType": 4,
+            "requiredAmount": 2,
+            "currentAmount": 0
+          }
+      ],
+      "cookingTime": 20.0,
+      "rewardPoints": 200
+    }
+  ]
+}

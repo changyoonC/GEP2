@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4349081001242813539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637540150943580124}
+  - component: {fileID: 4467699177921992292}
+  - component: {fileID: 7208669357108581716}
+  m_Layer: 0
+  m_Name: BerryPlant
+  m_TagString: BerryPlant
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1637540150943580124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4349081001242813539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.53, y: 0, z: 3.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8253551141211545225}
+  - {fileID: 6548970409923190723}
+  - {fileID: 1873553724970690630}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4467699177921992292
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4349081001242813539}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7208669357108581716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4349081001242813539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bada5ba0dabda409858e3bdfb0439d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cropData:
+    cropType: 0
+    itemPrefab: {fileID: 1585045071788060584, guid: d6551388d3bd9ce478ab6b8dfff326b6, type: 3}
+    minDropCount: 3
+    maxDropCount: 5
+    regrowTime: 30
+    cropName: "\uBE0C\uB85C\uCF5C\uB9AC"
+    harvestTime: 3
+    dropRadius: 3
+  plantVisual_Empty: {fileID: 8773383314881856563}
+  plantVisual_Few: {fileID: 5884319391087347065}
+  plantVisual_Full: {fileID: 1246339874463462140}
+  currentState: 2
+--- !u!1001 &158454585978175358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1637540150943580124}
+    m_Modifications:
+    - target: {fileID: 6024616547219601927, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_Name
+      value: Farm_Crop_Broccoli_Step_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+--- !u!1 &5884319391087347065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6024616547219601927, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+  m_PrefabInstance: {fileID: 158454585978175358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6548970409923190723 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6399734337142956221, guid: 7dcfc0262ea40ce41892de4befc9a847, type: 3}
+  m_PrefabInstance: {fileID: 158454585978175358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7313888438476040343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1637540150943580124}
+    m_Modifications:
+    - target: {fileID: 8416037257017809515, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_Name
+      value: Farm_Crop_Broccoli_Step_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+--- !u!1 &1246339874463462140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8416037257017809515, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+  m_PrefabInstance: {fileID: 7313888438476040343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1873553724970690630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9187367321890422993, guid: dcf17dca09b40da408d9055d29925728, type: 3}
+  m_PrefabInstance: {fileID: 7313888438476040343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7594845754812404309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1637540150943580124}
+    m_Modifications:
+    - target: {fileID: 1199961213495498342, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_Name
+      value: Farm_Crop_Broccoli_Step_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+--- !u!4 &8253551141211545225 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2012210668682677468, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+  m_PrefabInstance: {fileID: 7594845754812404309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8773383314881856563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1199961213495498342, guid: e320f6a030aee824bb57e27031ae774e, type: 3}
+  m_PrefabInstance: {fileID: 7594845754812404309}
+  m_PrefabAsset: {fileID: 0}
